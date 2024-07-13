@@ -6,15 +6,15 @@ class BottleSong
         String Name = "Bottles";
         while (BottleNum > 0)
         {
-            if (BottleNum == 1)
-            {
-                Name = "Bottle";
-            }
             System.out.println(BottleNum + " Green " + Name + " Hanging on the wall");
             System.out.println(BottleNum + " Green " + Name + " Hanging on the wall");
             System.out.println("And if one Green Bottle should accidently fall, ");
             BottleNum -= 1;
 
+            if (BottleNum == 1)
+            {
+                Name = "Bottle";
+            }
             if (BottleNum > 0)
             {
                 System.out.println("There will be " + BottleNum + " Green " + Name + " Hanging on the wall");
